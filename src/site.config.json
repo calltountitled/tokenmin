@@ -1,0 +1,9 @@
+{
+  "siteName": "TokenMin",
+  "siteNameNote": "PLACEHOLDER - quyền dùng tên chưa xác minh (>=8 chủ thể 'tokenmin' khác, kiểm 2026-11-23)",
+  "baseUrl": "https://example.invalid",
+  "baseUrlNote": "PLACEHOLDER - chưa có domain sản xuất được uỷ quyền",
+  "locale": "vi-VN",
+  "draftNotice": "Bản dựng thử (scaffold). Nội dung là placeholder, chưa phải sản phẩm đã công bố.",
+  "year": "2026"
+}
