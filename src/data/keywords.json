@@ -1,0 +1,13 @@
+{
+  "status": "draft-hypothesis",
+  "source": "Báo cáo nội bộ KeywordMiner + TrendScout 2026-11-23; chưa có dữ liệu volume/CPC/độ khó được uỷ quyền",
+  "clusters": [
+    { "id": "A1", "group": "Đo lường chi phí LLM", "primary": ["kiểm tra chi phí claude", "audit token usage", "token spend analysis"], "intent": "informational/commercial", "channel": "blog/docs", "status": "hypothesis" },
+    { "id": "A2", "group": "Giảm chi phí", "primary": ["giảm chi phí api llm", "tối ưu token", "token optimization"], "intent": "commercial", "channel": "blog/landing", "status": "hypothesis" },
+    { "id": "A3", "group": "Kỹ thuật", "primary": ["prompt caching", "model routing", "context window optimization"], "intent": "informational", "channel": "docs/github", "status": "hypothesis" },
+    { "id": "A4", "group": "Đối thủ", "primary": ["litellm alternatives", "claude code cost"], "intent": "comparison", "channel": "trang so sánh", "status": "hypothesis - có tín hiệu Xu hướng" },
+    { "id": "A5", "group": "Thương hiệu", "primary": ["tokenmin", "tokenmin ai"], "intent": "navigational", "channel": "-", "status": "blocked - trùng tên + không đủ dữ liệu" },
+    { "id": "B1", "group": "Gateway", "primary": ["ai gateway", "llm gateway", "litellm proxy"], "intent": "informational/comparison", "channel": "blog/dev", "status": "hypothesis - có nhu cầu nền VN" },
+    { "id": "B2", "group": "VN hoá", "primary": ["hoá đơn VAT API AI", "gateway AI tiếng Việt"], "intent": "commercial", "channel": "landing VN", "status": "hypothesis - cần xác minh pháp lý" }
+  ]
+}

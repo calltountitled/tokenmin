@@ -1,0 +1,91 @@
+[
+  {
+    "path": "index",
+    "nav": true,
+    "navLabel": "Trang chủ",
+    "title": "TokenMin — trang chủ (bản dựng thử)",
+    "description": "Bản dựng thử website cho sản phẩm tạm gọi TokenMin. Nội dung placeholder, chưa công bố.",
+    "h1": "TokenMin — bản dựng thử website",
+    "keywords": ["tokenmin", "ai gateway", "llm gateway"],
+    "sections": [
+      { "h": "Trạng thái bản dựng", "p": ["Đây là scaffold do kỹ thuật tạo để chốt cấu trúc, SEO và quy trình build trước khi có nội dung sản phẩm thật.", "Mọi nội dung trong repo là placeholder, không phải tuyên bố về sản phẩm."] },
+      { "h": "Sản phẩm (chưa xác minh)", "p": ["Brief chưa chốt danh mục sản phẩm, mô hình thương mại hay use case có số liệu, nên trang này không mô tả tính năng hay giá."] },
+      { "h": "Việc cần chốt trước khi công bố", "ul": ["Tên/domain chính thức và quyền dùng tên 'tokenmin'", "Danh mục sản phẩm và mô hình thương mại", "3-5 use case có số liệu"] }
+    ]
+  },
+  {
+    "path": "seo/kiem-tra-chi-phi-claude",
+    "nav": true,
+    "navLabel": "Chi phí Claude",
+    "title": "Kiểm tra chi phí Claude (bản dựng thử)",
+    "description": "Trang SEO mẫu cho cụm 'kiểm tra chi phí claude'. Nội dung hướng dẫn placeholder.",
+    "h1": "Kiểm tra chi phí Claude — trang SEO mẫu",
+    "keywords": ["kiểm tra chi phí claude", "audit token usage", "token spend analysis"],
+    "sections": [
+      { "h": "Mục tiêu cụm từ khoá", "p": ["Cụm A1 (đo lường chi phí LLM) là giả thuyết nội bộ, chưa có dữ liệu volume/CPC được uỷ quyền."] },
+      { "h": "Nội dung cần viết", "ul": ["Hướng dẫn từng bước cách đọc hoá đơn token", "Bảng so sánh theo mô hình (cần số liệu thật)", "Checklist kiểm tra trước khi tối ưu"] }
+    ]
+  },
+  {
+    "path": "seo/litellm-alternatives",
+    "nav": true,
+    "navLabel": "LiteLLM alternatives",
+    "title": "LiteLLM alternatives (bản dựng thử)",
+    "description": "Trang so sánh mẫu cho cụm 'litellm alternatives'. Nội dung placeholder.",
+    "h1": "LiteLLM alternatives — trang so sánh mẫu",
+    "keywords": ["litellm alternatives", "litellm proxy", "claude code cost"],
+    "sections": [
+      { "h": "Vì sao cụm này", "p": ["TrendScout: 'litellm alternatives' đang lên (Breakout), 'litellm proxy' +170% — người dùng đang tìm lối ra khỏi LiteLLM. Đây là tín hiệu Xu hướng, không phải volume."] },
+      { "h": "Cần gì để viết thật", "ul": ["Bảng tiêu chí so sánh trung lập (không sao chép nội dung bên thứ ba)", "Số liệu hiệu năng có nguồn và ngày kiểm", "Tuyên bố sản phẩm đã xác minh"] }
+    ]
+  },
+  {
+    "path": "seo/ai-gateway-vn",
+    "nav": true,
+    "navLabel": "AI gateway VN",
+    "title": "AI gateway tại Việt Nam (bản dựng thử)",
+    "description": "Trang chủ đề mẫu cho 'ai gateway'. Nội dung placeholder.",
+    "h1": "AI gateway (thị trường VN) — trang chủ đề mẫu",
+    "keywords": ["ai gateway", "llm gateway", "gateway AI tiếng Việt"],
+    "sections": [
+      { "h": "Dữ liệu nền", "p": ["TrendScout: 'AI gateway' VN có nhu cầu nền (44/53 tuần có dữ liệu), nhưng truy vấn liên quan bị Vercel/Cloudflare chiếm. Chỉ số Xu hướng là tương đối 0-100, không phải volume."] },
+      { "h": "Góc nội dung khả thi", "ul": ["Hướng dẫn chọn gateway theo nhu cầu (không nêu thương hiệu chưa uỷ quyền)", "Hoá đơn VAT cho API AI tại VN (cần xác minh pháp lý)"] }
+    ]
+  },
+  {
+    "path": "docs/getting-started",
+    "nav": true,
+    "navLabel": "Bắt đầu",
+    "title": "Bắt đầu (bản dựng thử)",
+    "description": "Hướng dẫn build và cấu trúc repo scaffold.",
+    "h1": "Bắt đầu",
+    "keywords": ["tokenmin docs"],
+    "sections": [
+      { "h": "Dựng thử", "p": ["Chạy 'node scripts/build.mjs' để tạo dist/, rồi 'node scripts/verify.mjs' để kiểm tra."] },
+      { "h": "Sửa nội dung", "p": ["Sửa src/data/pages.json và src/data/keywords.json rồi build lại."] }
+    ]
+  },
+  {
+    "path": "docs/seo-plan",
+    "nav": true,
+    "navLabel": "Kế hoạch SEO",
+    "title": "Kế hoạch SEO / cụm từ khoá (bản dựng thử)",
+    "description": "Khung cụm từ khoá có điều kiện, trạng thái giả thuyết.",
+    "h1": "Kế hoạch SEO — khung cụm từ khoá",
+    "keywords": ["ke hoach seo", "cum tu khoa"],
+    "sections": [
+      { "h": "Trạng thái", "p": ["Toàn bộ cụm là giả thuyết nội bộ 2026-11-23; chưa có volume/CPC/độ khó được uỷ quyền. Cụm thương hiệu (A5) bị chặn do trùng tên."] },
+      { "h": "Bảng cụm", "table": "keywords" },
+      { "h": "Nguyên tắc", "ul": ["Không bịa số liệu tìm kiếm", "Cụm thương hiệu chờ chốt quyền dùng tên", "Không sao chép nội dung/giao diện bên thứ ba"] }
+    ]
+  },
+  {
+    "path": "404",
+    "noIndex": true,
+    "title": "Không tìm thấy trang (bản dựng thử)",
+    "description": "Trang 404 cho bản dựng thử.",
+    "h1": "404 — không tìm thấy trang",
+    "keywords": [],
+    "sections": [ { "h": "", "p": ["Đường dẫn không tồn tại trong bản dựng thử."] } ]
+  }
+]

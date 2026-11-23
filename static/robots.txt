@@ -1,0 +1,3 @@
+# Bản dựng thử - repo riêng tư, chưa công bố
+User-agent: *
+Disallow: /

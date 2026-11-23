@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{locale}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="keywords" content="{{keywords}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{canonical}}">
+<link rel="stylesheet" href="/static/styles.css">
+<script type="application/ld+json">{{jsonld}}</script>
+</head>
+<body>
+<header class="banner">{{draftNotice}}</header>
+<nav class="nav">{{nav}}</nav>
+<main>
+<h1>{{h1}}</h1>
+{{body}}
+</main>
+<footer>
+<p>{{siteName}} — bản dựng thử {{year}}. {{siteNameNote}}</p>
+</footer>
+</body>
+</html>

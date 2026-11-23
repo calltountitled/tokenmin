@@ -1,0 +1,13 @@
+{
+  "name": "tokenmin-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Static scaffold for the tokenmin website (draft).",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs",
+    "test": "node scripts/build.mjs && node scripts/verify.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
